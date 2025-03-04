@@ -1,8 +1,7 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 baseURL: "https://hsiaotzuhung.com"
-title: Lunch Break
-defaultContentLanguage: "zh-tw"
+title: 午休時間
 copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
 paginate: 5
 theme: ["papermod"]
@@ -10,11 +9,11 @@ theme: ["papermod"]
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
-buildFuture: false
+buildFuture: true
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts", "papermod"]
+mainsections: ["posts"]
 
 minify:
   disableXML: true
@@ -37,29 +36,9 @@ languages:
         - name: 搜尋
           url: search/
           weight: 10
-        - name: Tags
+        - name: 標籤
           url: tags/
           weight: 10
-
-  en:
-    languageName: "English"
-    weight: 2
-    taxonomies:
-      category: categories
-      tag: tags
-      series: series
-    menu:
-      main:
-        - name: Archive
-          url: archives
-          weight: 5
-        - name: Search
-          url: search/
-          weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
-
 
 outputs:
   home:
@@ -75,17 +54,19 @@ params:
 
   defaultTheme: light
   # disableThemeToggle: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowReadingTime: true
   # disableSpecial1stPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowRssButtonInSectionTermList: true
+  ShowRssButtonInSectionTermList: false
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
+  ShowLatestPosts: true
+  LatestPostsCount: 3
   # comments: false
   images: ["images/papermod-cover.png"]
 
@@ -103,15 +84,16 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "PaperMod's Demo"
+    Title: "午休時間"
     Content: >
-      👋 Welcome to demo page of Hugo's theme PaperMod!
+      忙碌的一天當中，午休是珍貴的喘息時間。
 
-      - **PaperMod**  is designed to be clean and simple but fast and responsive theme with useful feature-set that enhances UX.
 
-      - Feel free to show your support by giving us a star 🌟 on GitHub and sharing with your friends and social media .
+      在漫長的一生中， 30+ 的我，決定給自己一段午休時間。
+      
 
-      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
+      在這裡，紀錄我的漫想與閱讀。
+
 
   editPost:
     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
@@ -141,14 +123,15 @@ params:
   #     hiddenInList: true # hide on list pages and home
   #     hiddenInSingle: true # hide on single page
 
-  # fuseOpts:
-  #     isCaseSensitive: false
-  #     shouldSort: true
-  #     location: 0
-  #     distance: 1000
-  #     threshold: 0.4
-  #     minMatchCharLength: 0
-  #     keys: ["title", "permalink", "summary", "content"]
+  # 搜尋設定
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 
 markup:
   goldmark:
@@ -185,3 +168,5 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
+
+defaultContentLanguage: "zh-tw"

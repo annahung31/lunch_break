@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Lunch Break</title>
-    <link>http://localhost:58993/</link>
-    <description>Recent content on Lunch Break</description>
+    <title>午休時間</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on 午休時間</description>
     <image>
-      <title>Lunch Break</title>
-      <url>http://localhost:58993/images/papermod-cover.png</url>
-      <link>http://localhost:58993/images/papermod-cover.png</link>
+      <title>午休時間</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.134.3</generator>
     <language>zh-tw</language>
     <copyright>PaperMod Contributors</copyright>
-    <atom:link href="http://localhost:58993/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Feb 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>輕微意識的勞動</title>
+      <link>http://localhost:1313/zh-tw/posts/my-first-post/</link>
+      <pubDate>Tue, 04 Feb 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-tw/posts/my-first-post/</guid>
+      <description>&lt;p&gt;昨天是到工作室當小幫手的第一天。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>輕微意識的勞動</title>
+      <link>http://localhost:1313/zh-tw/posts/my-first-post-2/</link>
+      <pubDate>Mon, 03 Feb 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-tw/posts/my-first-post-2/</guid>
+      <description>&lt;p&gt;昨天是到工作室當小幫手的第一天。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>輕微意識的勞動</title>
+      <link>http://localhost:1313/zh-tw/posts/my-first-post-3/</link>
+      <pubDate>Sun, 02 Feb 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh-tw/posts/my-first-post-3/</guid>
+      <description>&lt;p&gt;昨天是到工作室當小幫手的第一天。&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
