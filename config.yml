@@ -31,13 +31,13 @@ languages:
     menu:
       main:
         - name: 文章列表
-          url: posts
+          url: /posts/
           weight: 5
         - name: 搜尋
-          url: search/
+          url: /search/
           weight: 10
         - name: 標籤
-          url: tags/
+          url: /tags/
           weight: 10
 
 outputs:
