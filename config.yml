@@ -4,7 +4,7 @@ baseURL: "https://hsiaotzuhung.com"
 title: 午休時間
 copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
 paginate: 5
-theme: ["papermod"]
+theme: github.com/adityatelange/hugo-PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
