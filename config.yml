@@ -6,6 +6,7 @@ copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-Pap
 paginate: 5
 theme: github.com/adityatelange/hugo-PaperMod
 
+defaultContentLanguage: "zh-tw"
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
@@ -31,7 +32,7 @@ languages:
     menu:
       main:
         - name: 文章列表
-          url: /posts/
+          url: /archives/
           weight: 5
         - name: 搜尋
           url: /search/
@@ -169,4 +170,4 @@ services:
   twitter:
     disableInlineCSS: true
 
-defaultContentLanguage: "zh-tw"
+
